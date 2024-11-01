@@ -1,0 +1,200 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+#tcm-title, #tcm-taxonomy{
+    background-color: #fff;
+    font-size: 1.7em;
+    height: 1.7em;
+    line-height: 100%;
+    margin: 0 0 3px;
+    outline: 0 none;
+    padding: 3px 8px;
+    width: 100%;
+}
+
+.tcm-form{
+    width: 100%;
+}
+
+
+
+.tcm-add .postbox{
+    min-width: 0px !important;
+}
+
+.tcm-add #publishing-action{
+    float: none !important;
+    text-align: left !important;
+}
+
+#major-publishing-actions .button.button-large{
+    text-align: center !important;
+    width : 100% !important;
+}
+
+.tcm-add #publishing-action input{
+    text-align: left !important;
+}
+
+.tcm_wp_list .wp-list-table .column-id { width: 5%; }
+.tcm_wp_list .wp-list-table .column-title { width: 15%; }
+.tcm_wp_list .wp-list-table .column-tcm_shortcode_2 { width: 40%; }
+.tcm_wp_list .wp-list-table .column-tcm_attr { width: 20%; }
+.tcm_wp_list .wp-list-table .column-tcm_attr_2 { width: 20%; }
+
+/* Style the tab */
+div.tcm-about div.tab {
+    overflow: hidden;
+    /*border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;*/
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tcm-about div.tab button {
+    background-color: inherit;
+    float: left;
+    width:25%;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tcm-about div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tcm-about div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+div.tcm-about .tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+div.features div.tcm_about_two_parts{
+    float:left;
+    width:100%;
+    display: table;
+    overflow: hidden;
+}
+
+div.features div.tcm_about_two_parts div.tcm_about_images{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.features div.tcm_about_two_parts div.tcm_about_contents{
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+
+
+.tab {
+    width: 100%;
+ }
+
+ .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tcm-about .tcm-design-help-1{
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    color: #555d66;
+    position: relative;
+    -webkit-animation-name: tcm-design-step; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    animation-name: tcm-design-step;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes tcm-design-step {
+    0%   {left:0px; top:0px;}
+    25%  {left:15px; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:15px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes tcm-design-step {
+    0%   {left:0px; top:0px;}
+    25%  {left:15px; top:0px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:15px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+.tcm-about .tcm-design-help-2{
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    color: #555d66;
+    position: relative;
+    -webkit-animation-name: tcm-design-step2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    animation-name: tcm-design-step2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes tcm-design-step2 {
+    0%   {right:0px; top:0px;}
+    25%  {right:15px; top:0px;}
+    50%  {right:0px; top:0px;}
+    75%  {right:15px; top:0px;}
+    100% {right:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes tcm-design-step2 {
+    0%   {right:0px; top:0px;}
+    25%  {right:15px; top:0px;}
+    50%  {right:0px; top:0px;}
+    75%  {right:15px; top:0px;}
+    100% {right:0px; top:0px;}
+}
+
+.tcm-style-preview{
+    padding-bottom: 10px;
+}
+
+.tcm-about .tcm-steps{
+    padding-left:4%;
+}
